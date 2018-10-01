@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- Template Basic Images Start -->
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="icon" href="img/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+  <!-- Template Basic Images End -->
+  
+  <!-- Custom Browsers Color Start -->
+  <meta name="theme-color" content="#000">
+  <!-- Custom Browsers Color End -->
+  <title>Synergy lectorium - Лекции и курсы звездных спикеров</title>
+
+  <!-- style -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap-reboot.min.css" />
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="header__topline">
+        <img src="img/logo.png" class="header__logo">
+        <div class="header__contacts contacts">
+          <div class="contacts__phone">
+            <a href="tel:8-800-100-17-46" class="contacts__link">
+            <svg width="15" height="15" class="contacts__icon contacts__icon-call">
+              <use xlink:href="img/svg-sprite.svg#icon-phone-call"></use>
+            </svg>
+            8-800-100-17-46
+            </a>
+          </div>
+          <div class="contacts__email">
+            <a href="mailto:lectorium@synergy.ru" class="contacts__link">
+            <svg width="15" height="15" class="contacts__icon contacts__icon-mail">
+              <use xlink:href="img/svg-sprite.svg#icon-mail"></use>
+            </svg>
+            Lectorium@synergy.ru</a>
+          </div>
+          <div class="contacts__address">
+            <svg width="25" height="25" class="contacts__icon contacts__icon-address">
+              <use xlink:href="img/svg-sprite.svg#icon-metro-logo"></use>
+            </svg>
+            <span>Семеновская</span>
+            <a href="#" class="contacts__link">
+            Москва, Измайловский Вал, дом 2, корпус 1</a>
+          </div>
+        </div>
+      </div>
+      <div class="header__promo promo">
+        <div class="promo__left-col">
+          <div class="promo__date"><span>10</span>ноября <span class="promo__time">В 19:00</span></div>
+          <p class="promo__date-descr">Бесплатная лекция и онлайн-трансляция</p>
+          <p class="promo__descr">Бхригу йога <span>Вдохновение на перемены</span></p>
+          <a href="https://youtu.be/JhXIITY7hh0" class="promo__play">
+            <svg width="15" height="15" class="promo__play-icon">
+              <use xlink:href="img/svg-sprite.svg#icon-play-btn"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="promo__right-col">
+          <form id="ctaForm" action="#" method="POST" class="promo__form form">
+            <p class="form__title">Записаться <span>на практическую лекцию</span></p>
+            <label for="name" class="form__label">
+              <input id="name" type="text" class="form__input" placeholder="Введите ваше имя">
+            </label>
+            <label for="phone" class="form__label">
+              <input id="phone" type="text" class="form__input" placeholder="Введите ваш телефон">
+            </label>
+            <label for="email" class="form__label">
+              <input id="email" type="text" class="form__input" placeholder="Введите ваш e-mail">
+            </label>
+            <div class="form__switcher switcher">              
+              <input type="radio" name="switcher" value="live" id="live" checked>
+              <label for="live">Живое участие</label>
+              <input type="radio" name="switcher" value="online" id="online">
+              <label for="online">Участие онлайн</label>
+            </div>
+            <div class="form__checkbox checkbox">
+              <input class="checkbox__input" id="check" type="checkbox">
+              <label class="checkbox__label" for="check"><span class="checkbox__img"></span>Согласен получать новости
+               о звездных лекциях и курсах</label>
+            </div>
+
+            <input type="submit" class="form__submit btn" value="Отправить заявку">
+
+            <p class="form__residue">Количество мест ограничено: <span class="form__residue-val">200</span></p>
+          </form>
+          <div class="promo__social social">
+            <p class="social__title">Рекомендовать друзьям</p>
+             <ul class="social__list">
+               <li class="social__item"><a href="#" class="social__link social__link--vk">vk</a></li>
+               <li class="social__item"><a href="#" class="social__link social__link--fb">fb</a></li>
+               <li class="social__item"><a href="#" class="social__link social__link--google">google</a></li>
+               <li class="social__item"><a href="#" class="social__link social__link--tweeter">tweeter</a></li>
+               <li class="social__item"><a href="#" class="social__link social__link--ok">ok</a></li>
+             </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="find-out">
+    <div class="find-out__wrapper">
+      <div class="find-out__title"><p>Что вы узнаете на лекции?</p></div>
+      <div class="find-out__list">
+        <article class="find-out__item">
+          <span class="find-out__number">01</span>
+          <p class="find-out__descr">Что такое Бхригу йога, и как она поможет 
+          мне создать жизнь моей мечты?</p>
+        </article>
+        <article class="find-out__item">
+          <span class="find-out__number">02</span>
+          <p class="find-out__descr">5 техник, вдохновляющие на на перемены, 
+          от вице-президента Федерации Йоги Индии</p>
+        </article>
+        <article class="find-out__item">
+          <span class="find-out__number">03</span>
+          <p class="find-out__descr">Почему медитация — это путь к вдохновению, 
+          путешествие к новым горизонтам</p>
+        </article>
+        <article class="find-out__item">
+          <span class="find-out__number">04</span>
+          <p class="find-out__descr">Методы Бхригу йоги как особый инструмент 
+          внутренней работы над телом и умом</p>
+        </article>
+        <article class="find-out__item">
+          <span class="find-out__number">05</span>
+          <p class="find-out__descr">Особые методы концентрации и релаксации</p>
+        </article>
+        <article class="find-out__item">
+          <span class="find-out__number">06</span>
+          <p class="find-out__descr">Причины потери вдохновения</p>
+        </article>
+      </div>
+      <div class="find-out__cta">
+        <a href="#ctaForm" class="find-out__btn btn">Принять участие</a>
+        <p class="find-out__residue">Количество мест ограничено: <span class="find-out__residue-val">200</span></p>
+      </div>
+    </div>
+  </section>
+  <section class="for-you">
+    <div class="for-you__overlay"></div>
+    <div class="for-you__wrapper">
+    <div class="for-you__content">
+      <p class="for-you__title">Лекция для вас, если вы:</p>
+      <ul class="for-you__list">
+        <li class="for-you__item for-you__item--one">Увлекаетесь йогой</li>
+        <li class="for-you__item for-you__item--two">Интересуетесь культурно-философским наследием 
+        Индии</li>
+        <li class="for-you__item for-you__item--three">Хотите узнать новые принципы работы с телом и 
+        умом</li>
+      </ul>
+    </div>
+    </div>
+  </section>
+  <section class="about">
+    <div class="about__wrapper">
+      <div class="about__content">
+        <p class="about__title">Трехдневный интенсив</p>
+        <p class="about__sub-title">Лечение и профилактика психосоматических и 
+        эндокринных заболеваний методами Бхригу йоги</p>
+        <p class="about__text">Вы познакомитесь с особенностями методов и  получите пошаговый алгоритм достижения физического и психического благополучия.</p>
+        <ul class="about__list">
+          <li class="about__item">
+            <div class="promo__date"><span>11</span>ноября <span class="promo__time">19:00-21.00</span></div>
+          </li>
+          <li class="about__item">
+            <div class="promo__date"><span>12</span>ноября <span class="promo__time">19:00-21.00</span></div>
+          </li>
+          <li class="about__item">
+            <div class="promo__date"><span>13</span>ноября <span class="promo__time">19:00-21.00</span></div>
+          </li>
+        </ul>
+        <div class="about__cta">
+          <a href="#ctaForm" class="about__btn btn">Принять участие</a>
+          <p class="about__cta-text">Вы можете приобрести билет на 1, 2 или 3 дня<br> 
+            Запись и дополнительная информация<br> по телефону <a href="tel:+7(999)768-36-38" class="about__phone">+7 999 768 36 38</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <div class="footer__copyright">&copy; 2016 Synergy Lectorium</div>
+      <div class="footer__policy">
+        <a href="#" class="footer__policy-link">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/svgxuse/1.2.6/svgxuse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
