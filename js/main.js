@@ -11,5 +11,10 @@ $(document).ready(function() {
         $("#ctaForm").removeAttr('style');
     }
   });
+  $("#js-map-toggle").fancybox({
+    afterClose: function() {
+      $("#popup-map").removeAttr('style');
+    }
+  });
 
 });
